@@ -16,3 +16,7 @@ cpal = "0.13"
 unicode-xid = "0.1.0"
 quick-xml = "0.22.0"
 midly = "0.5.2"
+
+
+[features]
+jack = [ "cpal/jack" ]
